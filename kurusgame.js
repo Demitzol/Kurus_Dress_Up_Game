@@ -7,7 +7,6 @@ document.addEventListener('DOMContentLoaded', () => {
         
         // Function to close the modal
         function closeModal() {
-            // 🔑 THE KEY: Remove the 'visible' class to change the CSS 'display' property
             modalBackdrop.classList.remove('visible');
         }
 
@@ -105,4 +104,5 @@ function aud_play_pause() {
   } else {
     myAudio.pause();
   }
+
 }
