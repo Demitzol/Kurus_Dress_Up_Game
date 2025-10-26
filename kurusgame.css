@@ -1,0 +1,283 @@
+body {
+margin: 0;
+padding: 0;
+user-select: none;
+-webkit-user-select: none;
+-moz-user-select: none;
+-ms-user-select: none;
+width: 100%;
+height: 100%;
+}
+.container {
+position: relative;
+width: 940px;
+height: 700px;
+background-image: url('https://i.pinimg.com/1200x/77/41/61/774161ad2e0fac27a81d20a2513cd7ca.jpg');
+background-repeat: no-repeat;
+ background-size: 2000px;
+  padding: 200px;
+margin: 0 auto;
+
+}
+.base {
+      position: absolute;
+	  top: 50%;
+      left: 30%;
+      transform: translate(-70%, -50%) scale(0.5);
+      height: auto;
+      z-index: 1;
+  height: auto;
+  display: block;
+    }
+.hair-wrapper {
+  position: absolute;
+  top: 140px;
+  left: 1170px;
+  z-index: 9;
+}
+.hair-item {
+  position: absolute;
+  cursor: grab;
+  z-index: 9;
+  transform: scale(0.7);
+  transform-origin: top left;
+}
+ .hp-item:nth-child(1) { top: -190px; right: 480px; z-index: 7; }
+  .hp-item:nth-child(2) { top: -190px; right: 510px; z-index: 6; }
+  .hp-item:nth-child(3) { top: -190px; right: 570px; z-index: 5; }
+  .hp-item:nth-child(4) { top: -190px; right: 620px; z-index: 4; }
+  .hp-item:nth-child(5) { top: -190px; right: 670px; z-index: 2; }
+  .hp-item:nth-child(6) { top: -190px; right: 720px; z-index: 1; }
+  
+.top-wrapper {
+  position: absolute;
+  top: 220px;
+  left: 360px;
+  z-index: 8;
+}
+.top-item {
+  position: absolute;
+  cursor: grab;
+  z-index: 8;
+  transform: scale(0.7);
+  transform-origin: top left;
+}
+.top-item:nth-child(1) { top: -200px; left: 510px; z-index: 10}
+.top-item:nth-child(2) { top: -200px; left: 480px; z-index: 9}
+.top-item:nth-child(3) { top: -200px; left: 430px; z-index: 8}
+.top-item:nth-child(4) { top: -200px; left: 360px; z-index: 7}
+.top-item:nth-child(5) { top: -200px; left: 340px; z-index: 6}
+.top-item:nth-child(6) { top: -200px; left: 280px; z-index: 5}
+.top-item:nth-child(7) { top: -200px; left: 240px; z-index: 4}
+.top-item:nth-child(8) { top: -200px; left: 670px; z-index: 3}
+.top-item:nth-child(9) { top: -30px; left: 730px; z-index: 1}
+
+.dress-wrapper {
+  position: absolute;
+  top: 390px;
+  left: 350px;
+  z-index: 6;
+}
+.dress-item {
+  position: absolute;
+  cursor: grab;
+  z-index: 6;
+  transform: scale(0.7);
+  transform-origin: top left;
+}
+.dress-item:nth-child(1) { top: -200px; left: 460px; z-index: 4}
+.dress-item:nth-child(2) { top: -200px; left: 410px; z-index: 3}
+.dress-item:nth-child(3) { top: -200px; left: 370px; z-index: 2}
+.dress-item:nth-child(4) { top: -200px; left: 320px; z-index: 1}
+ 
+.shorts-wrapper {
+  position: absolute;
+  top: 615px;
+  left: 430px;
+  z-index: 3;
+}
+.shorts-item {
+  position: absolute;
+  cursor: grab;
+  z-index: 3;
+  transform: scale(0.7);
+  transform-origin: top left;
+}
+.shorts-item:nth-child(1) { top: -245px; right: -170px}
+
+.skirt-wrapper {
+  position: absolute;
+  top: 615px;
+  left: 330px;
+  z-index: 5;
+}
+.skirt-item {
+  position: absolute;
+  cursor: grab;
+  z-index: 5;
+  transform: scale(0.7);
+  transform-origin: top left;
+}
+.skirt-item:nth-child(1) { top: -245px; right: -420px; z-index: 3}
+.skirt-item:nth-child(2) { top: -245px; right: -420px; z-index: 2}
+.skirt-item:nth-child(3) { top: -245px; right: -420px; z-index: 1}
+
+.glasses-wrapper {
+  position: absolute;
+  top: 320px;
+  left: 1190px;
+  z-index: 6;
+}
+.glasses-item {
+  position: absolute;
+  cursor: grab;
+  z-index: 2;
+  transform: scale(0.7);
+  transform-origin: top left;
+}
+.glasses-item:nth-child(1) { top: 30px; left: -860px; z-index: 1}
+
+.shoe-wrapper {
+  position: absolute;
+  top: 590px;
+  left: 1000px;
+  z-index: 3;
+}
+.shoe-item {
+  position: absolute;
+  cursor: grab;
+  z-index: 3;
+  transform: scale(0.7);
+  transform-origin: top left;
+}
+.shoe-item:nth-child(1) { top: -5px; left: 20px; z-index: 7}
+.shoe-item:nth-child(2) { top: -5px; left: 60px; z-index: 6}
+.shoe-item:nth-child(3) { top: -5px; left: 80px; z-index: 5}
+.shoe-item:nth-child(4) { top: -70px; left: 120px; z-index: 4}
+.shoe-item:nth-child(5) { top: -70px; left: 160px; z-index: 3}
+.shoe-item:nth-child(6) { top: 15px; left: 190px; z-index: 2}
+.shoe-item:nth-child(7) { top: 60px; left: 220px; z-index: 1}
+
+.bag-wrapper {
+  position: absolute;
+  top: 390px;
+  left: 1000px;
+  z-index: 9;
+}
+.bag-item {
+  position: absolute;
+  cursor: grab;
+  z-index: 9;
+  transform: scale(0.7);
+  transform-origin: top left;
+}
+.bag-item:nth-child(1) { top: 60px; left: -660px; z-index: 1}
+.bag-item:nth-child(2) { top: 190px; left: -500px; z-index: 1}
+.bag-item:nth-child(3) { top: 190px; left: -450px; z-index: 1}
+.bag-item:nth-child(4) { top: 190px; left: -390px; z-index: 1}
+.bag-item:nth-child(5) { top: 190px; left: -290px; z-index: 1}
+.bag-item:nth-child(6) { top: 190px; left: -250px; z-index: 1}
+
+.acc-wrapper {
+  position: absolute;
+  top: 370px;
+  left: 1170px;
+  z-index: 9;
+}
+.acc-item {
+  position: absolute;
+  cursor: grab;
+  z-index: 9;
+  transform: scale(0.7);
+  transform-origin: top left;
+}
+.acc-item:nth-child(1) { top: -40px; left: -220px;}
+.acc-item:nth-child(2) { top: -40px; left: -70px;}
+.acc-item:nth-child(3) { top: -100px; left: -150px;}
+.acc-item:nth-child(4) { top: -40px; left: -180px;}
+
+.header-controls {
+    display: flex; /* Arrange children in a row */
+    align-items: center; /* Vertically align items */
+    position: absolute; /* Position the group */
+    top: 5px; /* Position from the top */
+    left: 10px; /* Position from the left (assuming a top-left location is desired) */
+    z-index: 10;
+}
+
+#reset-btn {
+    /* Remove absolute positioning and large right value */
+    /* Use margin to create space between the music player and the reset button */
+    margin-left: 10px;
+    transform: scale(0.7); /* Keep existing scale */
+    height: auto;
+    cursor: pointer;
+}
+
+.music-controls {
+    /* Remove float: right; as it's not needed with flexbox */
+    /* Ensure audio element is hidden if you only want the button */
+    /* The audio element is inline by default, so it won't affect layout if the image is in the button */
+}
+
+/* You might want to remove the default button padding/border to make the image the focus */
+.music-controls button {
+    background-color: transparent;
+    border: none;
+    padding: 0;
+}
+
+#modal-backdrop {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.7); /* Dark semi-transparent overlay */
+    display: none; /* Hidden by default, JavaScript will show it */
+    justify-content: center;
+    align-items: center;
+    z-index: 1000; /* Ensure it's on top of everything */
+}
+
+/* Class to make the modal visible */
+#modal-backdrop.visible {
+    display: flex;
+}
+
+/* The Circular Modal Box */
+#circular-modal {
+    position: relative;
+    width: 850px; /* Adjust size as needed */
+    height: 720px; /* Must be same as width for a perfect circle */
+    border-radius: 50%; /* Key for the circle shape! */
+    padding: 50px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.5);
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+}
+
+/* Close Button Styling */
+#close-button {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    background: #ff4d4d;
+    color: white;
+    border: none;
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    font-size: 16px;
+    line-height: 1;
+    cursor: pointer;
+    transition: background 0.2s;
+}
+
+#close-button:hover {
+    background: #cc0000;
+}
